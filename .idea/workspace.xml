@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df78808a-0138-44ae-97ce-d93f9770825d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/templates/todo_temps/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/templates/todo_temps/custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/templates/todo_temps/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/templates/todo_temps/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1564621507006</updated>
     </task>
+    <task id="LOCAL-00001" summary="Code rearranged.">
+      <created>1564719845978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564719845978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -146,6 +149,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code rearranged." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code rearranged." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Todo/apps.py">
