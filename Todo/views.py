@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from . models import List
 from . forms import ListForm
 from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm, AuthenticationForm
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login
 
 
 # Create your views here.
@@ -56,3 +59,16 @@ def edit(request, list_id):
     else:
         all_items = List.objects.get(pk=list_id)
         return render(request, 'todo_temps/edit.html', {'all_items': all_items})
+
+
+def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+    else:
+        form = UserCreationForm()
+        return render(request, 'todo_temps/login.html', {'form': form})
+
+
