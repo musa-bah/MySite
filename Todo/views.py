@@ -4,12 +4,15 @@ from . models import List
 from . forms import ListForm
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm, AuthenticationForm
-from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
 
 
 # Create your views here.
-def home_view(request):
+def home(request):
+    return render(request, 'todo_temps/homepage.html', {})
+
+
+def todo_home(request):
     if request.method == "POST":
         form = ListForm(request.POST or None)
 
@@ -69,6 +72,18 @@ def register(request):
             return redirect('home')
     else:
         form = UserCreationForm()
-        return render(request, 'todo_temps/login.html', {'form': form})
+        return render(request, 'todo_temps/register.html', {'form': form})
 
 
+def login_page(request):
+    if request.POST:
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return HttpResponse("You are now logged in !!!")
+        else:
+            return redirect('login')
+
+    return render(request, 'todo_temps/login.html')

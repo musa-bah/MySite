@@ -1,0 +1,61 @@
+.test{
+    position: relative;
+    left: 0px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #45610C;
+
+}
+
+.track{
+    border-radius: 12px;
+    padding: 1%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.login{
+    position: relative;
+    left: 0px;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #45610C;
+}
+
+input[type = submit], button{
+    background: green;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.regis{
+    background: green;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+}
+
+.regis_form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+    width: 100%;
+    font-size: 20px;
+    color: #45610C;
+}
+
+
+body{
+    background: url("forest1.jpg") no-repeat;
+    background-size: auto;
+}
