@@ -72,7 +72,7 @@ def register(request):
             return redirect('home')
     else:
         form = UserCreationForm()
-        return render(request, 'todo_temps/register.html', {'form': form})
+    return render(request, 'todo_temps/register.html', {'form': form})
 
 
 def login_page(request):
