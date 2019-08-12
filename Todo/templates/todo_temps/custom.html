@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{% static 'css/my_css.css' %}">
+    <link rel="stylesheet" href="{% static 'css/my_css.css' %}" type="text/css">
 
     <title>Hello, world!</title>
   </head>
@@ -30,7 +30,9 @@
     </ul>
     <form class="form-inline my-2 my-lg-0" method="POST">
       {% csrf_token %}
-
+      <div class="divider">
+        <button> <a href="{% url 'logout' %}">Logout</a></button>
+      </div>
       <input class="form-control mr-sm-2" type="search" placeholder="item..." aria-label="Add Item" name="item">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add Item</button>
     </form>

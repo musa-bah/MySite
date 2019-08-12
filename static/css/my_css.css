@@ -1,3 +1,9 @@
 .cross_item {
     text-decoration: line-through;
 }
+
+.divider{
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}

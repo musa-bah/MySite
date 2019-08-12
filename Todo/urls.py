@@ -3,7 +3,7 @@ from . import views
 from django.contrib.auth import authenticate, login
 
 urlpatterns = [
-    path('home/', views.todo_home, name='home'),
+    path('home/', views.add_item, name='home'),
     path('delete/<int:list_id>', views.delete, name='delete'),
     path('cross/<int:list_id>', views.crossed, name='cross'),
     path('un_cross/<int:list_id>', views.un_crossed, name='un_cross'),
@@ -11,5 +11,7 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('login/', views.login_page, name='login'),
     path('', views.home, name='homepage'),
+    path('logout/', views.logout_page, name='logout'),
+    path('profile/', views.profile, name='profile')
 
 ]
