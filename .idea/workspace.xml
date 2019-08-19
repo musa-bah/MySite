@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df78808a-0138-44ae-97ce-d93f9770825d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/templates/app-templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/templates/todo_temps/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/templates/app-templates/loginpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_Users/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todo/templates/todo_temps/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -76,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todo/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="90">
               <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -85,11 +60,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todo/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Todo/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,10 +219,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19157393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19125395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -243,7 +233,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.41619155" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" visible="true" weight="0.14255092" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.22006841" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -297,28 +287,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Todo/templates/todo_temps/loginpage.html" />
-    <entry file="file://$PROJECT_DIR$/Todo_Users/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo_Users/forms.py" />
     <entry file="file://$PROJECT_DIR$/Todo_Users/templates/app-templates/custom_temp.html" />
-    <entry file="file://$PROJECT_DIR$/Todo_Users/templates/app-templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo_Users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo_Users/templates/app-templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/Todo_Users/models.py" />
     <entry file="file://$PROJECT_DIR$/static/css/my_css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -326,16 +298,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todo_Users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo_Users/views.py" />
     <entry file="file://$PROJECT_DIR$/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -343,43 +306,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todo_Users/templates/app-templates/loginpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo_Users/templates/app-templates/loginpage.html" />
     <entry file="file://$PROJECT_DIR$/Todo/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo_Users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Todo_Users/urls.py" />
     <entry file="file://$PROJECT_DIR$/MySite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1097">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,14 +362,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Todo/templates/todo_temps/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Todo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="90">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -445,6 +381,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
